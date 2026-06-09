@@ -193,6 +193,31 @@ export function renderOverview() {
     <section class="section">
       <h2>Proof findings</h2>
       <ul>${risks}</ul>
+    </section>
+    <section class="section">
+      <h2>What this product does</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="chip">GTM analyst lens</div>
+          <h3>Turns leverage claims into a board-readable operating story</h3>
+          <p>This page clarifies where efficiency is actually compounding, where drag is still consuming execution capacity, and which story can be defended in a board packet.</p>
+        </article>
+        <article class="card">
+          <div class="chip">SaaS value lens</div>
+          <h3>Connects operating leverage to reinvestment confidence</h3>
+          <p>Leaders can compare leverage score, drag pressure, annual value, and owner readiness before deciding whether to cut waste, reinvest, scale, or escalate.</p>
+        </article>
+        <article class="card">
+          <div class="chip">Technical proof</div>
+          <h3>Typed routes, fixtures, CLI output, and reproducible checks</h3>
+          <p>The repo backs the public page with structured TypeScript services, generated fixtures, API payloads, smoke tests, and verification notes rather than a static marketing shell.</p>
+        </article>
+        <article class="card">
+          <div class="chip">What these repos have in common</div>
+          <h3>Reusable executive-intelligence pattern</h3>
+          <p>Each Kinetic Gain surface turns platform, AI, revenue, compliance, and infrastructure complexity into evidence, ownership, and a clear next board decision.</p>
+        </article>
+      </div>
     </section>`,
     "Board-ready surface for operating leverage, drag pressure, and reinvestment confidence across the executive estate."
   );
